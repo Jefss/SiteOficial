@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: purple;
+}
+
+header {
+   background-image: linear-gradient(to bottom, blue, purple);
+   color: aliceblue;
+   min-height: 120px;
+   text-align: center;
+   padding-top: 15px;
+}
+
+header h1 {
+   font-size: 3em;
+   text-shadow: 02px 02px 03px black;
+}
+
+header p {
+      margin: 0px;
+}
+
+nav {
+   background-color: purple;
+   text-align: center;
+   padding-bottom: 20px;
+}
+
+nav a {
+    color: aliceblue;
+    font-weight: bold;
+    text-shadow: 04px 04px 08px black;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background-color: rgba(29, 16, 16, 0.425);
+    border-radius: 05px;
+    transition-duration: 0.3s;
+}
+
+
+main {
+  background-color: rgb(224, 193, 193);
+  margin: auto;
+  min-width: 300px;
+  max-width: 1000px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 03px 03px 15px black;
+  text-align: center;
+  text-justify: auto;
+}
+
+h2 {
+    padding: 05px;
+    margin: 05px;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 25px;
+    
+}
+
+img {
+    width: 100%;
+}
+
+article {
+
+}
+
+footer {
+   background-image: linear-gradient(to top, blue, purple);
+   padding: 80px;
+   padding-bottom: 10px;
+   color: aliceblue;
+   text-align: center;
+}
