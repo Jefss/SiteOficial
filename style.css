@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 body {
@@ -49,6 +50,7 @@ nav a:hover {
 
 main {
   background-color: rgb(224, 193, 193);
+  font-size: 19px;
   margin: auto;
   min-width: 300px;
   max-width: 1000px;
@@ -76,9 +78,7 @@ img {
     width: 100%;
 }
 
-article {
 
-}
 
 footer {
    background-image: linear-gradient(to top, blue, purple);
@@ -87,3 +87,90 @@ footer {
    color: aliceblue;
    text-align: center;
 }
+
+
+div.cq1 {
+  padding: 1%;
+}
+
+div.cq2 {
+    padding: 1%;
+  }
+
+div.cq3 {
+    padding: 1%;
+  }
+
+ div p {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 05px 05px 08px rgba(46, 45, 45, 0.829);
+    text-decoration: double;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2%;
+  }
+
+
+
+  main.redes {
+    width: 20%;
+  }
+
+  div.redes01 {
+    padding: 2%;
+    margin: 2%;
+  }
+
+  div.redes01:hover {
+    
+    background-color: rgba(110, 61, 61, 0.356);
+    border-radius: 05px;
+    transition-duration: 0.3s;
+    
+  }
+
+  div.redes02 {
+    padding: 2%;
+    margin: 2%;
+  }
+
+  div.redes02:hover {
+    background-color: rgba(110, 61, 61, 0.356);
+    border-radius: 05px;
+    transition-duration: 0.3s;
+  }
+
+  div.redes03 {
+    padding: 2%;
+    margin: 2%;
+  }
+
+  div.redes03:hover {
+    background-color: rgba(110, 61, 61, 0.356);
+    border-radius: 05px;
+    transition-duration: 0.3s;
+  }
+
+  div.redes04 {
+    padding: 2%;
+    margin: 2%;
+  }
+
+  div.redes04:hover {
+    background-color: rgba(110, 61, 61, 0.356);
+    border-radius: 05px;
+    transition-duration: 0.3s;
+  }
+
+  div.redes05 {
+    padding: 2%;
+    margin: 2%;
+  }
+
+  div.redes05:hover {
+    background-color: rgba(110, 61, 61, 0.356);
+    border-radius: 05px;
+    transition-duration: 0.3s;
+  }
