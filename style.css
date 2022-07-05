@@ -174,3 +174,8 @@ div.cq3 {
     border-radius: 05px;
     transition-duration: 0.3s;
   }
+
+  ul {
+    text-align: left;
+    padding: 2%;
+  }
